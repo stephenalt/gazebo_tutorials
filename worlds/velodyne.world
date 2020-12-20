@@ -159,7 +159,9 @@
           </limit>
         </axis>
       </joint>
-
+      <plugin name="velodyne_control" filename="./libvelodyne_plugin.so">
+        <velocity>25</velocity>
+      </plugin>
     </model>
   </world>
 </sdf>
